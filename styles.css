@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 233, 233);
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 2.5rem;
+
+}
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    gap: 50px;
+}
+
+.tabs-container {
+    border-radius: 2px solid gray;
+}
+
+.nav-tabs {
+    display: flex;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(147, 222, 255);
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.history-btn {
+    border-top-left-radius: 20px;
+}
+
+.goals-btn {
+    border-top-right-radius: 20px;
+}
+
+button:hover {
+    border: 3px solid rgb(2, 255, 40);
+}
+
+li {
+    border: 1px solid blue;
+}
+
+.nav-content {
+    padding: 50px;
+    background-color: #FFF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-content-title {
+    font-weight: bold;
+}
